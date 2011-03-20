@@ -1,0 +1,13 @@
+﻿@model CodeAnalysisDemo.DataAccess.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details for: @Model.Name</h2>
+<ul>
+    <li>Product Line: @Model.ProductLine</li>
+    <li>Color: @Model.Color</li>
+    <li>List Price: @Model.ListPrice.ToString("c")</li>
+</ul>

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<CodeAnalysisDemo.DataAccess.Product>
+
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Products</h2>
+
+<ul>
+@foreach (var product in Model)
+{
+    <li>@Html.ActionLink(product.Name, "Details", "Product", new { id = product.ProductID }, null)</li>    
+}
+</ul>
