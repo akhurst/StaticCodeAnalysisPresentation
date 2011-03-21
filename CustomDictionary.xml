@@ -2,7 +2,7 @@
 <Dictionary>
     <Words>
         <Unrecognized>
-            <Word>knokker</Word>
+            <Word></Word>
         </Unrecognized>
         <Recognized>
             <Word></Word>
@@ -19,7 +19,7 @@
     </Words>
     <Acronyms>
         <CasingExceptions>
-            <!--<Acronym>HPWEB</Acronym>-->
+            <Acronym>HPWEB</Acronym>
         </CasingExceptions>
     </Acronyms>
 </Dictionary>
