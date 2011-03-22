@@ -7,6 +7,9 @@ namespace Demo1
 {
     public class CrappyClass
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", 
+            "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "string",
+            Justification = "Im doing a demo.")]
         public bool MethodWithTerribleComplexity(string welcomeString)
         {
             try

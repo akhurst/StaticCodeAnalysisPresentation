@@ -4,19 +4,22 @@
 // </copyright>
 // <author>Ben Floyd</author>
 //-----------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace MyCustomFxCopRules
 {
     using Microsoft.FxCop.Sdk;
 
+    /// <summary>
+    /// A class for initializing the ruleset
+    /// </summary>
     internal abstract class RulesetInitializer : BaseIntrospectionRule
     {
-            protected RulesetInitializer(string ruleName)
-                : base(ruleName, "MyCustomFxCopRules.RuleMetadata", typeof(RulesetInitializer).Assembly)
-           { }
+        /// <summary>
+        /// Initializes a new instance of the RulesetInitializer class.
+        /// </summary>
+        /// <param name="ruleName">The name of the rule being added to the ruleset</param>
+        protected RulesetInitializer(string ruleName)
+            : base(ruleName, "MyCustomFxCopRules.RuleMetadata", typeof(RulesetInitializer).Assembly)
+        {
+        }
     }
 }

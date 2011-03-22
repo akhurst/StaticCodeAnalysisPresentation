@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Rules FriendlyName="My Custom FxCop Rules">
-    <Rule TypeName="EnforceHungarianNotation" Category="MyRules" CheckId="CR1000">
+    <Rule TypeName="EnforceHungarianNotation" Category="MyRules" CheckId="CR1337">
         <Name>Enforce Hungarian Notation</Name>
         <Description>Checks fields for compliance with Hungarian notation.</Description>
         <Resolution>Field {0} is not in Hungarian notation. Field name should be prefixed with '{1}'.</Resolution>

@@ -2,4 +2,5 @@
 <RuleSet Name="MyCustomRuleset" ToolsVersion="10.0">
   <Include Path="basicdesignguidelinerules.ruleset" Action="Default" />
   <Include Path="extendedcorrectnessrules.ruleset" Action="Default" />
+  <Include Path="mycustomruleset.ruleset" Action="Default" />
 </RuleSet>
